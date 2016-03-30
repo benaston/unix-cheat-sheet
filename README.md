@@ -16,6 +16,8 @@ List all processes: ` ps aux | grep cron`
 
 Restart service: `service crond restart`
 
+Repeat a command every n seconds: `watch -n n <command>`
+
 #less
 
 End of file: `shift+g`
