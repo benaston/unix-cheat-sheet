@@ -14,6 +14,8 @@ Show processes on each port: `lsof`
 
 List all processes: ` ps aux | grep cron`
 
+Restart service: `service crond restart`
+
 #less
 
 End of file: `shift+g`
