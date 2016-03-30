@@ -10,7 +10,9 @@ List directory in order of modified: `ls -ltr`
 
 Configure a cron job: `crontab -e` then `1 (minute) 0 (hour)  * * 3 (day of week) username <script path>`
 
-Show processes on each port: lsof
+Show processes on each port: `lsof`
+
+List all processes: ` ps aux | grep cron`
 
 #less
 
