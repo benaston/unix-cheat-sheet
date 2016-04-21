@@ -1,5 +1,8 @@
 # unix-cheat-sheet
 
+for server in `cat prd/host_list`; do echo "Checking $server"; ssh -q $server "cd /opt/eFX/apps/uuiprd/common/bin; cat deployment_scripts_version.txt"; done
+
+
 Make a file executable: `chmod a+x <filename>`
 
 Switch to superuser: `suod su -` (the dash I think means current user)
